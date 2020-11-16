@@ -55,7 +55,7 @@ function start_init(){
 	localStorage.setItem("init", initial_init);
 	document.getElementById("init").innerText = localStorage.init
 	document.getElementById("tours").innerText = 0;
-	lance_de()
+	lancer_de()
 }
 function update_init(){
 	localStorage.init = parseInt(localStorage.init) - parseInt(document.getElementById("palier").innerText);
